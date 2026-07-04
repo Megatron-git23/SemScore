@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="calculate.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SemScore</title>
+</head>
+<body class="body">
+   <nav class="naaav">
+      <label class="label">SemScore</label>
+      <p class="para">CGPA AND SGPA CALCULATOR</p>
+   </nav>
+   <div class="base">
+       <div class="student-data">
+         <input type="text" id="student-name"placeholder="Student Name">
+         <select aria-placeholder="Semester" name="Semester" id="sem" required>
+            <option disabled selected hidden>Semester</option>
+            <option >Semester 1</option>
+            <option >Semester 2</option>
+            <option >Semester 3</option>
+            <option >Semester 4</option>
+            <option >Semester 5</option>
+            <option >Semester 6</option>
+            <option >Semester 7</option>
+            <option >Semester 8</option>
+         </select>
+       </div>
+       <div class="table-div">
+       <table id="subject-table" border="3px">
+         <thead id="thead">
+            <tr>
+               <td class="subject">Subject</td>
+               <td class="credit">Credit</td>
+               <td class="grade">Grade</td>
+            </tr>
+         </thead>
+         <tbody id="tbody">
+            <tr>
+               <td><input type="text" id="subject"placeholder="Enter Subject Name"></td>
+               <td><input type="number" id="credit"placeholder="Enter the Credit" min="0"max="6"></td>
+               <td><select name="Grade" id="grade" required>
+                  <option disabled selected hidden>Grade</option>
+                  <option >S</option>
+                  <option >A+</option>
+                  <option >A</option>
+                  <option >B+</option>
+                  <option >B</option>
+                  <option >C</option>
+                  <option >P</option>
+                  <option >F</option>
+                  <option >FE</option>
+                  <option >Ab</option>
+               </select></td>
+            </tr>
+         </tbody>
+       </table>
+       </div>
+       <div class="btn">
+         <button id="add-subject">Add Subject</button>
+         <button id="sgpa">Calculate SGPA</button>
+         <button id="save-semester">Save Semester</button>
+         <button id="cgpa">Calculate CGPA</button>
+         <button id="reset">Reset</button>
+
+       </div>
+       <label class="ktu">IT'S KTU GUYS</label>
+       <div class="display">
+         <label class="lab">YOUR STUFF</label>
+      
+         <h2 id="sg">SGPA RESULT:0.00%</h2>
+   
+         <h2 id="cg">CGPA RESULT:0.00%</h2>
+   
+         <h3 id="save">SAVED SEMESTERS</h3>
+         <ul id="semlist"></ul>
+       </div>
+   </div>
+   <script src="calculate.js"></script>
+</body>
+</html>

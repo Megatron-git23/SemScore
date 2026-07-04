@@ -1,0 +1,215 @@
+.body{
+  padding: 0px;
+  margin: 0px;
+  background-color: #0f100f;
+}
+.label{
+  font-size: 30px;
+  font-weight: bold;
+  font-style: inherit;
+  font-family: fantasy;
+  text-decoration: dotted;
+  color: rgb(79, 74, 74);
+  margin-left: 80px;
+  padding-top: 54px;
+}
+.para{
+  font-size: 20px;
+  color: #4f5151;
+  float: right;
+  padding-right: 173px;
+}
+.naaav{
+    background-color: rgb(149, 148, 142);
+    width: 100%;
+    height: 50px;
+    padding-top: 14px;
+    border-style: inset;
+    border-color: #d6d6d6;
+}
+.base{
+  background-color: #2c2c2b;
+  width: 90%;
+  height: 520px;
+  margin-top: 21px;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-right: 5px;
+  border-radius: 30px;
+  border-style: inset;
+  border-color: #c06464;
+
+}
+#student-name{
+  width: 300px;
+  height: 24px;
+  background-color: #f3f3f3;
+  margin-left: 25px;
+  margin-top: 26px;
+  border-radius: 8px;
+  border-style: inset;
+  border-color: #020202;
+  text-transform: capitalize;
+}
+#student-name:hover{
+  background-color:#a1e2e2;
+  border-color: red;
+}
+#sem{
+  width: 300px;
+  height: 30px;
+  border-color: #020202;
+  background-color: #f3f3f3;
+  margin-top: 26px;
+  border-radius: 8px;
+  margin-left: 30px;
+}
+#sem:hover{
+  background-color:#a1e2e2;
+  border-color: red;
+}
+.table-div{
+  width: 59%;
+  height: 360px;
+  max-height: 360px;
+  max-width: 59%;
+  overflow-y: scroll;
+}
+#subject-table{
+  max-height:400px;
+  overflow-y: auto;
+  border-color: white;
+  margin-top: 20px;
+  margin-left: 28px;
+}
+.subject{
+  background-color:#8f7e7e;
+  width: 332px;
+}
+#subject{
+  width: 332px;
+  text-transform: capitalize;
+}
+#subject:hover{
+  border-color:red;
+  background-color: #a1e2e2;
+}
+.credit{
+  background-color:#8f7e7e;
+  width: 208px;
+}
+#credit{
+  width: 208px;
+}
+#credit:hover{
+  border-color: red;
+  background-color: #a1e2e2;
+}
+.grade{
+  background-color:#8f7e7e;
+}
+#grade:hover{
+  background-color: #a1e2e2;
+  border-color: red;
+}
+#thead{
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.btn{
+  color: red;
+  margin-left: 28px;
+  margin-top: 36px;
+}
+#add-subject{
+  background-color: rgb(124, 205, 43);
+  color: black;
+  width: 125px;
+  border-color:#080808;
+}
+#add-subject:hover{
+  background-color: #a1e2e2;
+  color: rgb(124, 205, 43);
+  border-color: red;
+}
+#sgpa{
+  background-color: rgb(124, 205, 43);
+  color:black;
+  width: 125px;
+  border-color: #080808;
+}
+#sgpa:hover{
+  background-color: #a1e2e2;
+  color: rgb(124, 205, 43);
+  border-color: red;
+}
+#save-semester{
+  background-color: rgb(124, 205, 43);
+  color: black;
+  width: 125px;
+  border-color: #080808;
+}
+#save-semester:hover{
+  background-color: #a1e2e2;
+  color: rgb(124, 205, 43);
+  border-color: red;
+}
+#cgpa{
+  background-color: rgb(124, 205, 43);
+  color: black;
+  width: 125px;
+  border-color:#080808;
+}
+#cgpa:hover{
+  background-color: #a1e2e2;
+  color:rgb(124, 205, 43);
+  border-color: red;
+}
+#reset{
+  background-color: rgb(124, 205, 43);
+  color: black;
+  width: 125px;
+  border-color:#080808;
+}
+#reset:hover{
+  background-color: #a1e2e2;
+  color: rgb(124, 205, 43);
+  border-color: red;
+}
+.display{
+  background-color: #6e6666;
+  width: 38%;
+  margin-left: 690px;
+  margin-top: -369px;
+  border-radius: 15px;
+  border-style: inset;
+  border-color: white;
+  height: 394px;
+}
+.ktu{
+  font-size: 40px;
+  position: absolute;
+  top: 143px;
+  right: 166px;
+  padding: 0px;
+  color: #f10e18;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.lab{
+  color: #bebaba;
+  padding-left: 126px;
+  font-size: 30px;
+  text-decoration: underline;
+}
+#sg{
+  text-align:center;
+}
+#cg{
+  text-align:center;
+}
+#save{
+  text-align:center;
+}
